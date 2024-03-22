@@ -1,0 +1,70 @@
+.footer {
+    padding: 40px 120px;
+    background-color: #121212;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-infor {
+    width: 25%;
+    min-width: 200px;
+}
+.footer-infor .head h5 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 25px;
+}
+.footer-infor .head {
+    color: #fff;
+}
+.footer-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #121212;
+}
+.footer-list li {
+    cursor: pointer;
+    position: relative;
+    padding-left: 0;
+    display: block;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer-infor p {
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 14px;
+}
+.enter {
+    max-width: 350px;
+    width: 100%;
+    border: 1px solid #696969;
+    padding: 5px;
+    border-radius: 30px;
+}
+.enter input {
+    border-radius: 30px;
+    background: 0 0;
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+}
+.enter button {
+    outline: none;
+    border: none;
+    background: #b41712;
+    border-radius: 30px;
+    min-width: 120px;
+    min-height: 46px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Montserrat, sans-serif;
+    color: #fff;
+}

@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Painting</title>
+    <link rel="stylesheet" href="./assets/css/Furniture.css" />
+    <link rel="stylesheet" href="./assets/css/header.css" />
+    <link rel="stylesheet" href="./assets/css/footer.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+    <!-- header -->
+    <div class="header">
+        <div class="logo">
+            <a href="homepage.html"><img src="./assets/img/logo.png" alt="logo" /></a>
+        </div>
+        <div class="menu">
+            <ul>
+                <li>
+                    <a href="">Auction Assets</a>
+                    <ul class="dropdown">
+                        <li><a href="./Furniture.html">Furniture</a></li>
+                        <li><a href="./Painting.html">Painting</a></li>
+                        <li><a href="./Statue.html">Statue</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a id="au" href="">Auction</a>
+                    <ul class="dropdown">
+                        <li><a href="">Auction Upcoming</a></li>
+                        <li><a href="">Auction Happenning</a></li>
+                        <li><a href="">Auction Finished</a></li>
+                    </ul>
+                </li>
+                <li><a href="">Introduce</a></li>
+                <li><a href="">Contact Us</a></li>
+                <li>
+                    <a href="./Account.html"><i class="fa-regular fa-user"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- end header -->
+    <div class="container" id="pd">
+        <div id="banner-new">
+            <h2 class="current-page">List of assets</h2>
+            <div class="link-redirect">
+                <a href="./homepage.html" class="page-index">Home page</a>
+                /
+                <span class="page-des">List of assets</span>
+            </div>
+        </div>
+    </div>
+    <div class="live-auction">
+        <div class="container">
+            <div class="container-content">
+                <div class="sidebar-content">
+                    <div class="blog-widget-item">
+                        <div class="search-area">
+                            <div class="sidebar-widget-title">
+                                <div class="sidebar-widget-title-text">
+                                    <h4>Search</h4>
+                                </div>
+                            </div>
+                            <div class="blog-widget-body">
+                                <form action="">
+                                    <div class="form-inner">
+                                        <div class="filter-search">
+                                            <input type="search" name="" id="filterKeyword"
+                                                placeholder="Enter keywords..." />
+                                        </div>
+                                        <div class="filter-date">
+                                            <div class="filter-date-body">
+                                                <div class="from-date-container">
+                                                    <label style="
+                                                                font-weight: 600;
+                                                            ">Since</label>
+                                                    <div class="fromDate">
+                                                        <i class="fa-solid fa-calendar-days"></i>
+                                                    </div>
+                                                </div>
+                                                <div class="to-date-contaier">
+                                                    <label style="
+                                                                font-weight: 600;
+                                                            ">To date</label>
+                                                    <div class="fromDate">
+                                                        <i class="fa-solid fa-calendar-days"></i>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="">
+                                                <input class="btn-filter" type="button" value="Filter" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-widget-item">
+                        <div class="search-area">
+                            <div class="sidebar-widget-title">
+                                <div class="sidebar-widget-title-text">
+                                    <h4>Property status</h4>
+                                </div>
+                            </div>
+                            <div class="blog-widget-body">
+                                <form action="">
+                                    <div class="form-inner">
+                                        <label class="containercheckbox">
+                                            <input type="checkbox" name="0" id="0" />
+                                            <label for="">All</label> </label><label class="containercheckbox">
+                                            <input type="checkbox" name="1" id="1" />
+                                            <label for="">Upcoming</label>
+                                        </label><label class="containercheckbox">
+                                            <input type="checkbox" name="2" id="2" />
+                                            <label for="">Happenning</label>
+                                            </span>
+                                        </label>
+                                        <label class="containercheckbox">
+                                            <input type="checkbox" name="3" id="3" />
+                                            <label for="">Finished</label>
+                                        </label>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="blog-widget-item">
+                        <div class="search-area">
+                            <div class="sidebar-widget-title">
+                                <div class="sidebar-widget-title-text">
+                                    <h4>New property</h4>
+                                </div>
+                            </div>
+                            <div class="blog-widget-body">
+                                <form action="">
+                                    <div class="form-inner">
+                                        <ul class="product-list-widget">
+                                            <li><a
+                                                    href="https://lacvietauction.vn/tai-san-dau-gia/1002805-lo-tai-san-da-qua-su-dung-cu-hong-cua-ban-phuc-vu-le-tang-ha--noi">
+                                                    <img src="./assets/img/s1.jpg" alt="">
+                                                    <span class="ellipsis2">Lot of used and damaged assets of the Hanoi
+                                                        Funeral Service Board</span>
+                                                </a>
+                                                <span style=" font-size: 13px;margin-left: 45px;">Starting price:
+                                                    78.345.000vnd</span>
+                                            </li>
+                                            <li><a
+                                                    href="https://lacvietauction.vn/tai-san-dau-gia/1002804-lo-5:-104-kg-hoa-tam-that-kho-khong-ro-nguon-goc,-xuat-xu-cua-cuc-quan-ly-thi-truong-tinh-ha-giang">
+                                                    <img src="./assets/img/s2.jpg" alt="">
+                                                    <span class="ellipsis2">Lot 5: 104 kg of dried Panax notoginseng
+                                                        flowers of unknown origin from the Market Management Department
+                                                        of Ha Giang province</span>
+                                                </a>
+                                                <span style=" font-size: 13px;margin-left: 45px;">Starting price:
+                                                    99.345.000vnd</span>
+                                            </li>
+                                            <li><a
+                                                    href="https://lacvietauction.vn/tai-san-dau-gia/1002805-lo-tai-san-da-qua-su-dung-cu-hong-cua-ban-phuc-vu-le-tang-ha--noi">
+                                                    <img src="./assets/img/s3.jpg" alt="">
+                                                    <span class="ellipsis2">Lot 4: All kinds of smuggled clothes from
+                                                        the Market Management Department of Ha Giang province</span>
+                                                </a>
+                                                <span style=" font-size: 13px;margin-left: 45px;">Starting price:
+                                                    8.555.000vnd</span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-card">
+                    <div class="list-item">
+                        <div class="item-property">
+                            <div class="auction-card1 animate-up">
+                                <div class="auction-img">
+                                    <img src="./assets/img/pic1.jpg" alt="">
+                                    <div class="auction-timer">
+                                        <div class="countdown">
+                                            <h4>
+                                                <span>28/03/2024 09:00:00</span>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="auction-content">
+                                    <h4>"La Montagne Sainte-Victoire" (1888–90)</h4>
+                                    <p>
+                                        Starting price :
+                                        <span style="color: #b41712">902,189,000</span>
+                                        <span style="font-size:14px;"> VNĐ</span>
+                                    </p>
+                                    <p>
+                                        Status :
+                                        <span>Not yet auctioned</span>
+                                    </p>
+                                    <div class="auction-card-bttm">
+                                        <a href="/tai-san-dau-gia/1002794-co-so-nha-dat-tram-y-te-cu-xa-binh-thanh"
+                                            class="eg-btn btn--primary btn--sm">Detail</a>
+                                        <div class="share-area">
+                                            <div>
+                                                <div class="share-btn"><i class="fa-solid fa-share"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <div class="item-property">
+                            <div class="auction-card1 animate-up">
+                                <div class="auction-img">
+                                    <img src="./assets/img/pic4.jpg" alt="">
+                                    <div class="auction-timer">
+                                        <div class="countdown">
+                                            <h4>
+                                                <span>28/03/2024 09:00:00</span>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="auction-content">
+                                    <h4>"La Montagne Sainte-Victoire" (1888–90)</h4>
+                                    <p>
+                                        Starting price :
+                                        <span style="color: #b41712">902,189,000</span>
+                                        <span style="font-size:14px;"> VNĐ</span>
+                                    </p>
+                                    <p>
+                                        Status :
+                                        <span>Not yet auctioned</span>
+                                    </p>
+                                    <div class="auction-card-bttm">
+                                        <a
+                                            href="/tai-san-dau-gia/1002794-co-so-nha-dat-tram-y-te-cu-xa-binh-thanh">Detail</a>
+                                        <div class="share-area">
+                                            <div>
+                                                <div class="share-btn"><i class="fa-solid fa-share"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <div class="item-property">
+                            <div class="auction-card1 animate-up">
+                                <div class="auction-img">
+                                    <img src="./assets/img/pain1.webp" alt="">
+                                    <div class="auction-timer">
+                                        <div class="countdown">
+                                            <h4>
+                                                <span>28/03/2024 09:00:00</span>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="auction-content">
+                                    <h4>"La Montagne Sainte-Victoire" (1888–90)</h4>
+                                    <p>
+                                        Starting price :
+                                        <span style="color: #b41712">902,189,000</span>
+                                        <span style="font-size:14px;"> VNĐ</span>
+                                    </p>
+                                    <p>
+                                        Status :
+                                        <span>Not yet auctioned</span>
+                                    </p>
+                                    <div class="auction-card-bttm">
+                                        <a href="/tai-san-dau-gia/1002794-co-so-nha-dat-tram-y-te-cu-xa-binh-thanh"
+                                            class="eg-btn btn--primary btn--sm">Detail</a>
+                                        <div class="share-area">
+                                            <div>
+                                                <div class="share-btn"><i class="fa-solid fa-share"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <div class="item-property">
+                            <div class="auction-card1 animate-up">
+                                <div class="auction-img">
+                                    <img src="./assets/img/pain2.webp" alt="">
+                                    <div class="auction-timer">
+                                        <div class="countdown">
+                                            <h4>
+                                                <span>28/03/2024 09:00:00</span>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="auction-content">
+                                    <h4>"La Montagne Sainte-Victoire" (1888–90)</h4>
+                                    <p>
+                                        Starting price :
+                                        <span style="color: #b41712">902,189,000</span>
+                                        <span style="font-size:14px;"> VNĐ</span>
+                                    </p>
+                                    <p>
+                                        Status :
+                                        <span>Not yet auctioned</span>
+                                    </p>
+                                    <div class="auction-card-bttm">
+                                        <a href="/tai-san-dau-gia/1002794-co-so-nha-dat-tram-y-te-cu-xa-binh-thanh"
+                                            class="eg-btn btn--primary btn--sm">Detail</a>
+                                        <div class="share-area">
+                                            <div>
+                                                <div class="share-btn"><i class="fa-solid fa-share"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <div class="item-property">
+                            <div class="auction-card1 animate-up">
+                                <div class="auction-img">
+                                    <img src="./assets/img/pain3.webp" alt="">
+                                    <div class="auction-timer">
+                                        <div class="countdown">
+                                            <h4>
+                                                <span>28/03/2024 09:00:00</span>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="auction-content">
+                                    <h4>"La Montagne Sainte-Victoire" (1888–90)</h4>
+                                    <p>
+                                        Starting price :
+                                        <span style="color: #b41712">902,189,000</span>
+                                        <span style="font-size:14px;"> VNĐ</span>
+                                    </p>
+                                    <p>
+                                        Status :
+                                        <span>Not yet auctioned</span>
+                                    </p>
+                                    <div class="auction-card-bttm">
+                                        <a
+                                            href="/tai-san-dau-gia/1002794-co-so-nha-dat-tram-y-te-cu-xa-binh-thanh">Detail</a>
+                                        <div class="share-area">
+                                            <div>
+                                                <div class="share-btn"><i class="fa-solid fa-share"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <div class="item-property">
+                            <div class="auction-card1 animate-up">
+                                <div class="auction-img">
+                                    <img src="./assets/img/pain4.webp" alt="">
+                                    <div class="auction-timer">
+                                        <div class="countdown">
+                                            <h4>
+                                                <span>28/03/2024 09:00:00</span>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="auction-content">
+                                    <h4>"La Montagne Sainte-Victoire" (1888–90)</h4>
+                                    <p>
+                                        Starting price :
+                                        <span style="color: #b41712">902,189,000</span>
+                                        <span style="font-size:14px;"> VNĐ</span>
+                                    </p>
+                                    <p>
+                                        Status :
+                                        <span>Not yet auctioned</span>
+                                    </p>
+                                    <div class="auction-card-bttm">
+                                        <a href="/tai-san-dau-gia/1002794-co-so-nha-dat-tram-y-te-cu-xa-binh-thanh"
+                                            class="eg-btn btn--primary btn--sm">Detail</a>
+                                        <div class="share-area">
+                                            <div>
+                                                <div class="share-btn"><i class="fa-solid fa-share"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <div class="item-property">
+                            <div class="auction-card1 animate-up">
+                                <div class="auction-img">
+                                    <img src="./assets/img/pain5.webp" alt="">
+                                    <div class="auction-timer">
+                                        <div class="countdown">
+                                            <h4>
+                                                <span>28/03/2024 09:00:00</span>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="auction-content">
+                                    <h4>"La Montagne Sainte-Victoire" (1888–90)</h4>
+                                    <p>
+                                        Starting price :
+                                        <span style="color: #b41712">902,189,000</span>
+                                        <span style="font-size:14px;"> VNĐ</span>
+                                    </p>
+                                    <p>
+                                        Status :
+                                        <span>Not yet auctioned</span>
+                                    </p>
+                                    <div class="auction-card-bttm">
+                                        <a
+                                            href="/tai-san-dau-gia/1002794-co-so-nha-dat-tram-y-te-cu-xa-binh-thanh">Detail</a>
+                                        <div class="share-area">
+                                            <div>
+                                                <div class="share-btn"><i class="fa-solid fa-share"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <div class="item-property">
+                            <div class="auction-card1 animate-up">
+                                <div class="auction-img">
+                                    <img src="./assets/img/pain6.webp" alt="">
+                                    <div class="auction-timer">
+                                        <div class="countdown">
+                                            <h4>
+                                                <span>28/03/2024 09:00:00</span>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="auction-content">
+                                    <h4>"La Montagne Sainte-Victoire" (1888–90)</h4>
+                                    <p>
+                                        Starting price :
+                                        <span style="color: #b41712">902,189,000</span>
+                                        <span style="font-size:14px;"> VNĐ</span>
+                                    </p>
+                                    <p>
+                                        Status :
+                                        <span>Not yet auctioned</span>
+                                    </p>
+                                    <div class="auction-card-bttm">
+                                        <a href="/tai-san-dau-gia/1002794-co-so-nha-dat-tram-y-te-cu-xa-binh-thanh"
+                                            class="eg-btn btn--primary btn--sm">Detail</a>
+                                        <div class="share-area">
+                                            <div>
+                                                <div class="share-btn"><i class="fa-solid fa-share"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="list-item">
+                        <div class="item-property">
+                            <div class="auction-card1 animate-up">
+                                <div class="auction-img">
+                                    <img src="./assets/img/pain7.webp" alt="">
+                                    <div class="auction-timer">
+                                        <div class="countdown">
+                                            <h4>
+                                                <span>28/03/2024 09:00:00</span>
+                                            </h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="auction-content">
+                                    <h4>"La Montagne Sainte-Victoire" (1888–90)</h4>
+                                    <p>
+                                        Starting price :
+                                        <span style="color: #b41712">902,189,000</span>
+                                        <span style="font-size:14px;"> VNĐ</span>
+                                    </p>
+                                    <p>
+                                        Status :
+                                        <span>Not yet auctioned</span>
+                                    </p>
+                                    <div class="auction-card-bttm">
+                                        <a href="/tai-san-dau-gia/1002794-co-so-nha-dat-tram-y-te-cu-xa-binh-thanh"
+                                            class="eg-btn btn--primary btn--sm">Detail</a>
+                                        <div class="share-area">
+                                            <div>
+                                                <div class="share-btn"><i class="fa-solid fa-share"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- footer -->
+        <footer id="fix">
+            <div class="footer">
+                <div class="footer-infor">
+                    <div class="head">
+                        <h5>Lac Viet partnership auction company</h5>
+                    </div>
+                    <ul class="footer-list">
+                        <li>Tax code: 0108055420</li>
+                        <li>
+                            Representative: Ms. Do Thi Hong Hanh - Position:
+                            General Director
+                        </li>
+                        <li>
+                            Operation registration number: 01/TP-DKHD issued
+                            by Hanoi Department of Justice on August 7, 2017
+                        </li>
+                        <li>
+                            Address: No. 49 Van Cao, Lieu Giai ward, Ba Dinh
+                            district, City. Hanoi.
+                        </li>
+                        <li>Phone: 024.32.115.234</li>
+                        <li>Email: info@lacvietauction.vn</li>
+                    </ul>
+                </div>
+    
+                <div class="footer-infor">
+                    <div class="head">
+                        <h5>About Us</h5>
+                    </div>
+                    <ul class="footer-list">
+                        <li>Introduce</li>
+                        <li>Operating regulations</li>
+                        <li>Dispute resolution mechanism</li>
+                        <li>User manual</li>
+                    </ul>
+                </div>
+    
+                <div class="footer-infor">
+                    <div class="head">
+                        <h5>Policy</h5>
+                    </div>
+                    <ul class="footer-list">
+                        <li>Frequently asked questions</li>
+                        <li>Online price structure</li>
+                        <li>Document regulations</li>
+                        <li>Information security policy</li>
+                        <li>Use account</li>
+                    </ul>
+                </div>
+                <div class="footer-infor">
+                    <div class="head">
+                        <h5>Participate in receiving news</h5>
+                    </div>
+                    <p>Sign up to receive news via new email</p>
+                    <div class="enter">
+                        <input type="text" placeholder="Enter email" />
+                        <button>Register</button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+</html>

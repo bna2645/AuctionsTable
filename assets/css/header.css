@@ -10,6 +10,7 @@
 }
 
 .header {
+    z-index: 1000;
     position: fixed;
     top: 0;
     left: 0;
@@ -31,7 +32,9 @@ ul li {
     display: inline-block;
     position: relative;
 }
-
+#au {
+    width: 200px;
+}
 ul li a {
     display: block;
     padding: 20px 45px;

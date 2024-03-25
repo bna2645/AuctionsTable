@@ -84,13 +84,21 @@ body {
     transition: 0.3s;
     width: 40%;
     margin-right: 4px;
+    height: 500px;
 }
 
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
+.card img {
+    width: 365px;
+    height: 285px;
+    object-fit: cover;
+}
+
 .container {
+    margin-top: 20px;
     padding: 2px 16px;
 }
 
@@ -139,10 +147,13 @@ body {
     background-color: #eceff1;
     padding: 120px 0;
 }
-
+.asset {
+    display: flex;
+    justify-content: space-around;
+}
 .asset-wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .asset-wrap .pic {

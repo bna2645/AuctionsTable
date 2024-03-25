@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Login Form</title>
+        <link rel="stylesheet" href="./assets/css/Account.css" />
+        <link rel="stylesheet" href="./assets/css/header.css" />
+        <link rel="stylesheet" href="./assets/css/footer.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <!-- header -->
+        <div class="header">
+            <div class="logo">
+                <a href="homepage.html"
+                    ><img src="./assets/img/logo.png" alt="logo"
+                /></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="">Auction Assets</a>
+                        <ul class="dropdown">
+                            <li><a href="./Furniture.html">Furniture</a></li>
+                            <li><a href="">Painting</a></li>
+                            <li><a href="">Statue</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a id="au">Auction</a>
+                        <ul class="dropdown">
+                            <li><a href="">Auction Upcoming</a></li>
+                            <li><a href="">Auction Happenning</a></li>
+                            <li><a href="">Auction Finished</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">Introduce</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li>
+                        <a href="./Account.html"
+                            ><i class="fa-regular fa-user"></i
+                        ></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- end header -->
+        <div class="main-login">
+            <div class="login-container">
+                <form id="login-form" onsubmit="return validateForm()">
+                    <h2>
+                        <img src="./assets/img/logo.png" alt="" /> Login to
+                        Auction
+                    </h2>
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input
+                            type="text"
+                            id="username"
+                            name="username"
+                            required
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            required
+                        />
+                    </div>
+                    <button type="submit">Login</button>
+                    <div class="register-link">
+                        <span
+                            >Don't have an account?
+                            <a href="register.html">Register now</a></span
+                        >
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- footer -->
+
+        <footer>
+            <div class="footer">
+                <div class="footer-infor">
+                    <div class="head">
+                        <h5>Lac Viet partnership auction company</h5>
+                    </div>
+                    <ul class="footer-list">
+                        <li>Tax code: 0108055420</li>
+                        <li>
+                            Representative: Ms. Do Thi Hong Hanh - Position:
+                            General Director
+                        </li>
+                        <li>
+                            Operation registration number: 01/TP-DKHD issued by
+                            Hanoi Department of Justice on August 7, 2017
+                        </li>
+                        <li>
+                            Address: No. 49 Van Cao, Lieu Giai ward, Ba Dinh
+                            district, City. Hanoi.
+                        </li>
+                        <li>Phone: 024.32.115.234</li>
+                        <li>Email: info@lacvietauction.vn</li>
+                    </ul>
+                </div>
+
+                <div class="footer-infor">
+                    <div class="head">
+                        <h5>About Us</h5>
+                    </div>
+                    <ul class="footer-list">
+                        <li>Introduce</li>
+                        <li>Operating regulations</li>
+                        <li>Dispute resolution mechanism</li>
+                        <li>User manual</li>
+                    </ul>
+                </div>
+
+                <div class="footer-infor">
+                    <div class="head">
+                        <h5>Policy</h5>
+                    </div>
+                    <ul class="footer-list">
+                        <li>Frequently asked questions</li>
+                        <li>Online price structure</li>
+                        <li>Document regulations</li>
+                        <li>Information security policy</li>
+                        <li>Use account</li>
+                    </ul>
+                </div>
+                <div class="footer-infor">
+                    <div class="head">
+                        <h5>Participate in receiving news</h5>
+                    </div>
+                    <p>Sign up to receive news via new email</p>
+                    <div class="enter">
+                        <input type="text" placeholder="Enter email" />
+                        <button>Register</button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="/js/Account.js"></script>
+    </body>
+</html>
